@@ -15,8 +15,8 @@ plantUML extension on VS code;
 +++ code example
 ***:style with parameters
 skinparam xxx;
-***:add diagram to github via url
-![alternativeText](http://www.plantuml.com/plantuml/proxy?cache=no&src=https:////raw.githubusercontent.com/{{userName}}/{{repoName}}/{{branch}}/{{filePath}});
+***:add diagram to github via PlantUML proxy service
+![alternativeText](http://www.plantuml.com/plantuml/proxy?src=RESOURCE&idx=INDEX&fmt=FORMAT);
 
 
 --[#Lightgrey] i18next
