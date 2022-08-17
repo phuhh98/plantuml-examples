@@ -1,0 +1,20 @@
+@startuml Login scenario
+skinparam Style strictuml
+
+participant "Web browser/client" as Client
+entity "Backend server" as Backend
+' queue "Message queve" as MQ
+database "Database \nfor Users" as DB
+
+title Login scenario
+
+Client -> Backend : POST Login with user's credential
+Client --> Client : Terminate on Network error
+Client <-- Backend : Terminate on Server Error
+Backend -> DB : POST to get User's info
+Backend <- DB : Return exist user if match \nor nothing if no match found
+Backend -> Backend : Compare User credential \nfrom Client and DB
+
+Client <- Backend : Login succeed iwth JWT \nor Rejected with status code 401
+
+@enduml

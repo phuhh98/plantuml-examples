@@ -1,0 +1,27 @@
+@startmindmap
+
+' skinparam HPmindmap {
+
+' }
+skinparam Monochrome reverse
+
++ <&flag>Presentation ideas
+
+++[#lightgreen] plantUML
++++ WTH is this?
+++++ UML - Unified Modeling Language
+****: plantUML and
+plantUML extension on VS code;
++++ code example
+***:style with parameters
+skinparam xxx;
+
+
+--[#Lightgrey] i18next
+--- WTF is this?
+--- Where to apply (i18next)
+---- ReactJS
+---- Server side
+
+
+@endmindmap

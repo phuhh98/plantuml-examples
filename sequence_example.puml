@@ -1,0 +1,8 @@
+@startuml Hello
+skinparam Style strictuml
+participant "Driver A" as DA
+participant "Driver B" as DB
+
+DA --> DB : Hello MFK
+
+@enduml

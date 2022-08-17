@@ -1,0 +1,22 @@
+@startuml
+
+!define SPRITESURL https://raw.githubusercontent.com/plantuml-stdlib/gilbarbara-plantuml-sprites/v1.0/sprites
+!includeurl SPRITESURL/flask.puml
+!includeurl SPRITESURL/kafka.puml
+!includeurl SPRITESURL/juju.puml
+!includeurl SPRITESURL/cassandra.puml
+
+title Gil Barbara's logos example
+
+' skinparam monochrome false
+
+rectangle "<$flask>\nwebapp" as webapp
+queue "<$kafka>" as kafka
+rectangle "<$juju,color=orange>\ndaemon" as daemon
+database "<$cassandra>" as cassandra
+
+webapp -> kafka
+kafka -> daemon
+daemon --> cassandra 
+
+@enduml
