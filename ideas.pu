@@ -1,29 +1,62 @@
 @startmindmap
+' skinparam Monochrome reverse
+!theme crt-green
 
-' skinparam HPmindmap {
+<style>
+.dotBox * {
+	LineStyle 5
+    LineThickness 2
+    LineColor green
+}
 
-' }
-skinparam Monochrome reverse
+.activate {
+	BackgroundColor green
+}
+.deactivate {
+	BackgroundColor Sienna
+}
+</style>
 
 + <&flag>Presentation ideas
 
-++[#lightgreen] plantUML
-+++ WTH is this?
-++++ UML - Unified Modeling Language
-****: plantUML and
-plantUML extension on VS code;
-+++ code example
-***:style with parameters
-skinparam xxx;
-***:add diagram to github via PlantUML proxy service
-![alternativeText](http://www.plantuml.com/plantuml/proxy?src=RESOURCE&idx=INDEX&fmt=FORMAT);
+++ plantUML 
++++ What is it? <<activate>>
+
+' ++++ UML - Unified Modeling Language <<dotBox>>
+' ****:plantUML and
+' plantUML extension on VS code;
 
 
---[#Lightgrey] i18next
---- WTF is this?
---- Where to apply (i18next)
----- ReactJS
----- Server side
++++ Purpose / benefits
+
+' ++++ Helps us to create a visual representation/documentation of our code flow
+' ++++ Support many kinds of diagram: class, object, sequence, activity, and use case diagrams.
+' ++++ Easy to update
+
+
+***:code example: a login scenario
+client, server, database;
+
+
+' ***:customize style with
+'  - skinparam [__skinProp__] [__propValue__]
+'  - !theme [__themeName__];
+
+
++++ add diagram to github via PlantUML proxy service
+
+' ****: add this line to your markdown file
+' ![alternativeText](http://www.plantuml.com/plantuml/proxy?src=RESOURCE&idx=INDEX&fmt=FORMAT);
+
+
+
+' REMOVED
+
+' -- i18next <<dotBox>>
+' --- WTH is this?
+' --- Where to apply (i18next)
+' ---- ReactJS 
+' ---- Server side 
 
 
 @endmindmap
