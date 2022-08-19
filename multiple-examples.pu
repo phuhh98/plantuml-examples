@@ -1,0 +1,61 @@
+@startuml
+
+!define osaPuml https://raw.githubusercontent.com/Crashedmind/PlantUML-opensecurityarchitecture2-icons/master
+!include osaPuml/Common.puml
+!include osaPuml/User/all.puml
+!include osaPuml/Hardware/all.puml
+!include osaPuml/Misc/all.puml
+!include osaPuml/Server/all.puml
+!include osaPuml/Site/all.puml
+
+listsprites
+
+footer %filename() rendered with PlantUML version %version()\nThe Hitchhiker’s Guide to PlantUML
+@enduml
+
+@startuml theme list
+help theme
+@enduml
+
+@startuml login
+title Login scenario
+!theme amiga
+skinparam  {
+	Style strictuml
+	ResponseMessageBelowArrow true
+	ActivityBackgroundColor green
+}
+
+!include <tupadr3/common>
+!include <tupadr3/font-awesome/server>
+!include <tupadr3/font-awesome/database>
+!include <tupadr3/font-awesome/user>
+
+FA_USER(Client, Client, participant, white)
+FA_SERVER(Server, Server, queue, White)
+FA_DATABASE(DB, Database, participant, White)
+
+' participant "Client" as Client
+' queue "Server" as Server
+' database "Database" as DB
+
+
+Client -> Server: POST login
+activate Server #green
+alt no credential
+	Client <-- Server : Reject 
+else with user's credential
+	activate Server #yellow
+	Server -> DB : GET user info
+	activate DB #Salmon
+	Server <-- DB : Response with user info
+	deactivate DB
+	Server -> Server : Validate user credential
+else credential does not match
+	Client <-- Server : Login request rejected
+else credential is matched
+	Client <-- Server : Session identifier (cookies/JWTs)
+	deactivate Server
+end
+	deactivate Server
+@enduml
