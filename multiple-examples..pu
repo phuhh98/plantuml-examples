@@ -1,0 +1,75 @@
+@startuml
+Bob -> Alice : hello
+@enduml
+
+@startuml
+A --> B: here
+@enduml
+@startmindmap
+' skinparam Monochrome reverse
+!theme crt-green
+
+<style>
+.dotBox * {
+	LineStyle 5
+    LineThickness 2
+    LineColor green
+}
+.dotArrow {
+	arrow {
+		LineStyle 5
+    	LineThickness 2
+    	LineColor green
+	}
+}
+
+.activate {
+	BackgroundColor green
+}
+.deactivate {
+	BackgroundColor Sienna
+}
+</style>
+
++ <&flag>Presentation ideas
+
+++ plantuml [[https://plantuml.com/ <&link-intact>]] 
+' +++ WHAT 
+
+' ++++ UML - Unified Modeling Language <<dotBox>>
+' ++++ plantUML and \nplantUML extension on VS code;
+
+
+' +++ Purpose / benefits <<activate>>
+
+' ++++ Help us to create a visual representation/documentation of our code flow
+' ++++ Support many kinds of diagram: class, object, sequence, activity, and use case diagrams.
+
+'create a visual representation of those abstract ideas in our mind
+
+
+' +++ code example: a login scenario \nclient, server, database
+
+
+' ***:customize style with
+'  - skinparam [__skinProp__] [__propValue__]
+'  - !theme [__themeName__];
+
+
+' +++ add diagram to github via PlantUML proxy service
+
+' ****: add this line to your markdown file
+' ![alternativeText](http://www.plantuml.com/plantuml/proxy?src=RESOURCE&idx=INDEX&fmt=FORMAT);
+
+
+
+' REMOVED
+
+' -- i18next <<dotBox>>
+' --- WTH is this?
+' --- Where to apply (i18next) <<dotArrow>>
+' ---- ReactJS 
+' ---- Server side 
+
+
+@endmindmap

@@ -6,7 +6,7 @@
 
 ## example1
 
-![eg1](http://www.plantuml.com/plantuml/proxy?src=https://raw.github.com/phuhh98/plantuml-examples/master/multiple-examples.pu&idx=0)
+![eg1](http://www.plantuml.com/plantuml/proxy?src=https://raw.github.com/phuhh98/plantuml-examples/master/multiple-examples.pu)
 
 ## example2
 
