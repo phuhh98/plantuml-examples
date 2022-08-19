@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="120px" preserveAspectRatio="none" style="width:725px;height:120px;background:#282828;" version="1.1" viewBox="0 0 725 120" width="725px" zoomAndPan="magnify"><defs/><g><rect fill="#282828" height="36.2969" rx="12.5" ry="12.5" style="stroke:#33FF33;stroke-width:1.0;" width="165.3333" x="5" y="41.2969"/><path d="M16,54.7604 L16,64.0938 L17.1667,64.0938 L17.1667,54.7604 L16,54.7604 M18.3333,54.7604 L18.3333,59.4271 L20.6667,59.4271 L20.6667,60.5938 L25.3333,60.5938 L23,58.2954 L25.3333,55.9271 L21.8333,55.9271 L21.8333,54.7604 L18.3333,54.7604 " fill="#33FF33" style="stroke:;stroke-width:0.0;stroke-dasharray:;"/><text fill="#33FF33" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="134" x="26.3333" y="64.292">Presentation ideas</text><rect fill="#282828" height="36.2969" rx="12.5" ry="12.5" style="stroke:#33FF33;stroke-width:1.0;" width="103.3333" x="210.3333" y="41.2969"/><text fill="#33FF33" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="64" x="220.3333" y="64.292">plantuml</text><a href="https://plantuml.com/" target="_top" title="https://plantuml.com/" xlink:actuate="onRequest" xlink:href="https://plantuml.com/" xlink:show="new" xlink:title="https://plantuml.com/" xlink:type="simple"><path d="M296.1933,54.7954 C295.9833,54.8071 295.7733,54.8304 295.575,54.9004 C295.26,55.0171 294.9567,55.1921 294.7,55.4488 A0.5833,0.5833 0 1 0 295.505,56.2538 C295.6333,56.1254 295.785,56.0554 295.9483,55.9971 C296.3567,55.8571 296.8583,55.9154 297.185,56.2538 C297.64,56.7087 297.64,57.4671 297.185,57.9337 L295.435,59.6837 C294.9217,60.1971 294.5017,60.2438 294.1983,60.2321 C293.895,60.2204 293.72,60.0804 293.72,60.0804 A0.5833,0.5833 0 1 0 293.1367,61.1071 C293.5333,61.3637 293.5333,61.3637 294.1167,61.3988 C294.7,61.4337 295.5167,61.2121 296.2283,60.4887 L297.9783,58.7387 C298.8883,57.8288 298.8883,56.3588 297.9783,55.4604 C297.6517,55.1338 297.2667,54.9354 296.8467,54.8421 C296.6367,54.7954 296.4033,54.7954 296.1933,54.8071 M293.86,57.4904 C293.2767,57.4671 292.4717,57.6654 291.7833,58.3654 L290.0333,60.1154 C289.1233,61.0254 289.1233,62.4954 290.0333,63.3938 C290.6867,64.0471 291.62,64.2338 292.4367,63.9421 C292.7517,63.8254 293.055,63.6504 293.3117,63.3938 A0.5833,0.5833 0 1 0 292.5067,62.5888 C292.3783,62.7171 292.2267,62.7871 292.0633,62.8454 C291.655,62.9854 291.1533,62.9271 290.8267,62.5888 C290.3717,62.1338 290.3717,61.3754 290.8267,60.9088 L292.5767,59.1588 C293.0433,58.6921 293.4517,58.6338 293.7783,58.6454 C294.105,58.6571 294.3267,58.7504 294.3267,58.7504 A0.5833,0.5833 0 1 0 294.84,57.7237 C294.4433,57.4904 294.4433,57.4904 293.86,57.4671 " fill="#33FF33" style="stroke:;stroke-width:0.0;stroke-dasharray:;"/></a><text fill="#33FF33" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="4" x="299.6667" y="64.292"> </text><rect fill="#282828" height="36.2969" rx="12.5" ry="12.5" style="stroke:#33FF33;stroke-width:1.0;" width="67" x="353.6667" y="41.2969"/><text fill="#33FF33" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="43" x="363.6667" y="64.292">WHAT</text><rect fill="#282828" height="36.2969" rx="12.5" ry="12.5" style="stroke:#008000;stroke-width:2.0;stroke-dasharray:5.0,5.0;" width="258" x="460.6667" y="10"/><text fill="#33FF33" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="234" x="470.6667" y="32.9951">UML - Unified Modeling Language</text><path d="M420.6667,59.4453 L430.6667,59.4453 C445.6667,59.4453 435.6667,28.1484 450.6667,28.1484 L460.6667,28.1484 " fill="none" style="stroke:#33FF33;stroke-width:1.0;"/><rect fill="#282828" height="52.5938" rx="12.5" ry="12.5" style="stroke:#33FF33;stroke-width:1.0;" width="251" x="460.6667" y="56.2969"/><text fill="#33FF33" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="97" x="470.6667" y="79.292">plantUML and</text><text fill="#33FF33" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="231" x="470.6667" y="95.5889">plantUML extension on VS code;</text><path d="M420.6667,59.4453 L430.6667,59.4453 C445.6667,59.4453 435.6667,82.5938 450.6667,82.5938 L460.6667,82.5938 " fill="none" style="stroke:#33FF33;stroke-width:1.0;"/><path d="M313.6667,59.4453 L323.6667,59.4453 C338.6667,59.4453 328.6667,59.4453 343.6667,59.4453 L353.6667,59.4453 " fill="none" style="stroke:#33FF33;stroke-width:1.0;"/><path d="M170.3333,59.4453 L180.3333,59.4453 C195.3333,59.4453 185.3333,59.4453 200.3333,59.4453 L210.3333,59.4453 " fill="none" style="stroke:#33FF33;stroke-width:1.0;"/><!--MD5=[145ae10ad282eac52a65769ebae1f85c]
+@startmindmap
+' skinparam Monochrome reverse
+!theme crt-green
+
+<style>
+.dotBox * {
+	LineStyle 5
+    LineThickness 2
+    LineColor green
+}
+.dotArrow {
+	arrow {
+		LineStyle 5
+    	LineThickness 2
+    	LineColor green
+	}
+}
+
+.activate {
+	BackgroundColor green
+}
+.deactivate {
+	BackgroundColor Sienna
+}
+</style>
+
++ <&flag>Presentation ideas
+
+++ plantuml [[https://plantuml.com/ <&link-intact>]] 
++++ WHAT 
+
+++++ UML - Unified Modeling Language <<dotBox>>
+++++ plantUML and \nplantUML extension on VS code;
+
+
+' +++ Purpose / benefits <<activate>>
+
+' ++++ Help us to create a visual representation/documentation of our code flow
+' ++++ Support many kinds of diagram: class, object, sequence, activity, and use case diagrams.
+
+'create a visual representation of those abstract ideas in our mind
+
+
+' +++ code example: a login scenario \nclient, server, database
+
+
+' ***:customize style with
+'  - skinparam [__skinProp__] [__propValue__]
+'  - !theme [__themeName__];
+
+
+' +++ add diagram to github via PlantUML proxy service
+
+' ****: add this line to your markdown file
+' ![alternativeText](http://www.plantuml.com/plantuml/proxy?src=RESOURCE&idx=INDEX&fmt=FORMAT);
+
+
+
+' REMOVED
+
+' - - i18next <<dotBox>>
+' - - - WTH is this?
+' - - - Where to apply (i18next) <<dotArrow>>
+' - - - - ReactJS 
+' - - - - Server side 
+
+
+@endmindmap
+
+@startmindmap
+
+
+
+
+
+<style>
+  root {
+    BackgroundColor #282828
+    FontColor #33FF33
+    FontName Verdana
+    HyperLinkColor #33FF33
+    LineColor #33FF33
+    LineThickness 1
+    Margin 5
+  }
+  box {
+    LineStyle 12-18
+    LineThickness 3
+  }
+  caption {
+    LineThickness 0
+  }
+  footer {
+    LineThickness 0
+  }
+  groupHeader {
+    BackgroundColor #33FF33
+    FontColor #282828
+    FontStyle bold
+  }
+  header {
+    LineThickness 0
+  }
+  node {
+    MaximumWidth 300
+  }
+  referenceHeader {
+    BackgroundColor #33FF33
+    FontColor #282828
+    FontStyle bold
+  }
+  separator {
+    BackgroundColor #33FF33
+    FontColor #282828
+    FontStyle bold
+  }
+  title {
+    FontSize 22
+    LineThickness 0
+  }
+</style>
+
+skinparam ArrowLollipopColor #33FF33
+skinparam BackgroundColor #282828
+skinparam DefaultFontName Verdana
+skinparam DefaultMonospacedFontName Courier
+skinparam LifelineStrategy solid
+skinparam ParticipantPadding 10
+skinparam SequenceLifeLineBorderColor #33FF33
+skinparam Shadowing false
+skinparam UseBetaStyle true
+
+skinparam Activity {
+  BackgroundColor #282828
+  BarColor #33FF33
+  BorderColor #33FF33
+  FontColor #33FF33
+  FontName Verdana
+}
+skinparam Boundary {
+  FontColor #33FF33
+}
+skinparam Box {
+  Padding 5
+}
+skinparam CircledCharacter {
+  FontColor #282828
+  FontName Courier
+  Radius 9
+}
+skinparam Class {
+  BackgroundColor #282828
+  BorderColor #33FF33
+  FontColor #33FF33
+  FontName Verdana
+}
+skinparam ClassAttribute {
+  FontColor #33FF33
+  FontName Verdana
+}
+skinparam ClassStereotype {
+  FontColor #33FF33
+  FontName Verdana
+}
+skinparam Footer {
+  FontColor #33FF33
+  FontName Verdana
+}
+skinparam Header {
+  FontColor #33FF33
+  FontName Verdana
+}
+skinparam Hyperlink {
+  Color #33FF33
+}
+skinparam IconPackage {
+  Color #33FF33
+  BackgroundColor #282828
+}
+skinparam IconPrivate {
+  Color #33FF33
+  BackgroundColor #282828
+}
+skinparam IconProtected {
+  Color #33FF33
+  BackgroundColor #282828
+}
+skinparam IconPublic {
+  Color #33FF33
+  BackgroundColor #282828
+}
+skinparam Note {
+  FontColor #33FF33
+  FontName Verdana
+}
+skinparam Object {
+  BorderColor #33FF33
+}
+skinparam Package {
+  BorderColor #33FF33
+  FontColor #33FF33
+  FontName Verdana
+}
+skinparam State {
+  BackgroundColor #282828
+  BorderColor #33FF33
+}
+skinparam StereotypeA {
+  BackgroundColor #33FF33
+  BorderColor #33FF33
+}
+skinparam StereotypeC {
+  BackgroundColor #33FF33
+  BorderColor #33FF33
+}
+skinparam StereotypeE {
+  BackgroundColor #33FF33
+  BorderColor #33FF33
+}
+skinparam StereotypeI {
+  BackgroundColor #33FF33
+  BorderColor #33FF33
+}
+skinparam StereotypeN {
+  BackgroundColor #33FF33
+  BorderColor #33FF33
+}
+skinparam UseCaseStereoType {
+  FontColor #33FF33
+  FontName Verdana
+}
+
+<style>
+.dotBox * {
+	LineStyle 5
+    LineThickness 2
+    LineColor green
+}
+.dotArrow {
+	arrow {
+		LineStyle 5
+    	LineThickness 2
+    	LineColor green
+	}
+}
+
+.activate {
+	BackgroundColor green
+}
+.deactivate {
+	BackgroundColor Sienna
+}
+</style>
+
++ <&flag>Presentation ideas
+
+++ plantuml [[https://plantuml.com/ <&link-intact>]] 
++++ WHAT 
+
+++++ UML - Unified Modeling Language <<dotBox>>
+++++ plantUML and \nplantUML extension on VS code;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@endmindmap
+
+PlantUML version 1.2022.7beta11(Unknown compile time)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>
